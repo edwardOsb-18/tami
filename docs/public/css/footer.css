@@ -1,0 +1,138 @@
+          /*footer*/
+
+.footer {
+    /* margin-bottom: .5rem;
+    margin-top: 1rem; */
+    padding: 1rem;
+    background-color: var(--color-prymario); 
+    /* transform: scale(1);
+    /* animation: productos 2s ;
+    animation-play-state: var(--stop); */ */
+   }
+  
+  /*animacio*/
+  @keyframes productos {
+    from {
+      transform: scale(0); } }
+
+    
+/* 
+
+          /*footer__titulo*/
+    .footer__titulo {
+      text-align: center;
+      font-size: var(--fontsize-titulo);
+      margin: 0;
+    font-weight: bolder; }
+      
+      
+    
+   
+
+
+   
+   
+   
+           /* .footer__sociales  */
+
+    .footer__sociales {
+      display: grid;
+      grid-gap: 1rem;
+      list-style: none;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-left: 0;
+      font-size: var(--fontsize-small);
+      grid-template-columns: 1fr 1fr;
+    justify-items: center; } 
+
+      /*medias*/
+      @media screen and (min-width: 830px) {
+    
+        .footer__sociales {
+          font-size: var(--fontsize-normal); } }
+          
+          
+          
+          
+          /* footer__link  */
+    .footer__link {
+      /* text-align: center;
+      display: block;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto; */
+      text-decoration: none;
+      color: var(--color-linkFootter);
+    display: flex;
+    align-items: center;
+    }
+    
+    
+    
+            
+            /*footer_copy*/
+    .footer_copy {
+      text-align: center;
+      font-size: var(--fontsize-small); }
+
+      /*medias*/
+      @media screen and (min-width: 830px) {
+    
+        .footer_copy {
+          font-size: var(--fontsize-normal); } }
+  
+
+
+
+
+
+
+                /* icono*/
+
+  .icono__1 {
+    display: block;
+    margin: .5rem;
+  font-size: var(--fontsize-normal); }
+
+  /*medias*/
+    @media screen and (min-width: 640px) {
+    
+      .icono__1 {
+        font-size: 2rem;
+        display: initial; } }
+  
+
+
+
+       
+        .footer__whas{
+          width: 160px;
+        }
+
+          @media screen and (min-width:630px) {
+            
+            .footer__whas{
+              width: 173px;
+            }
+          }
+        
+
+          @media screen and (min-width:830px) {
+            
+            .footer__whas{
+              width: 230px;
+            }
+          }
+        
+
+          .footer__face{
+            width: 94px;
+          }
+
+          @media screen and (min-width:830px) {
+            
+            .footer__face{
+              width: 130px;
+            }
+          }

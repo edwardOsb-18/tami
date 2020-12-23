@@ -1,0 +1,202 @@
+
+    /* para colorear cada pagina en la ue esrtammos en la barra de navegador */
+    @media screen and (min-width: 830px) {
+    .menu__item:nth-child(5) {
+      background-color: var(--color-primario1);
+      position: relative; }
+      
+      .menu__item:nth-child(5)::before {
+        content: "";
+        display: block;
+        background-color: black;
+        height: 2rem;
+        width: 30%;
+        position: absolute;
+        bottom: -.9rem;
+        transform: translate(70%, -20%) rotate(52deg);
+        z-index: -1;
+        background-color: var(--color-primario1);
+        border: 2px solid gray;  }
+
+      }
+
+            /*politica__envio*/
+
+ /* reseteamos figure*/
+
+figure {
+  margin: 0; }
+
+
+
+
+            /* main__politicaEnvio */
+
+
+.main__politicaEnvio {
+  background-color:rgb(236, 251, 251);
+  }
+/*medias*/
+  @media screen and (min-width: 830px) {
+    
+    .main__politicaEnvio{
+      margin-top: 7rem; } }
+
+
+
+
+
+
+
+                  /*politica*/
+
+
+.politica {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column; }
+
+  /*media*/
+  @media screen and (min-width: 830px) {
+    
+    .politica {
+      padding: 7rem;
+      flex-direction: row; } }
+ 
+
+
+
+
+
+
+
+              /*politica__img*/
+
+  .politica__img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%; }
+
+
+
+
+
+
+            /*politica__imgenes*/
+
+  .politica__imagenes {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    animation: politica__imagenes 2.5s; }
+
+    /*medias*/
+    @media screen and (min-width: 830px) {
+      
+      .politica__imagenes {
+        flex: 1; } }
+/*animaciones*/
+@keyframes politica__imagenes {
+  from {
+    transform: translate(-100%); } }
+  
+
+
+
+
+            /*politica__item*/
+  .politica__item {
+    width: 80%;
+    margin: 1rem; }
+
+    /*medias*/
+    @media screen and (min-width: 440px) {
+     
+      .politica__item {
+        width: 40%; } }
+
+
+    @media screen and (min-width: 830px) {
+      
+      .politica__item {
+        width: 55%; } }
+
+
+
+
+        
+
+          /* politica__content*/
+  .politica__content {
+    animation: contacto__content 2.5s;
+    margin: 1rem; }
+
+    /*medias*/
+    @media screen and (min-width: 830px) {
+      
+      .politica__content {
+        margin: 1rem;
+        flex: 1;
+        text-align: left; } }
+
+
+ /*animaciones*/
+@keyframes contacto__content {
+  from {
+    transform: translate(100%); } }
+
+
+
+
+
+            /*politica__titulo*/
+
+  .politica__titulo {
+    color: var(--color-botones);
+    font-size: var(--fontsize-titulo);
+     }
+
+
+ /*medias*/
+    @media screen and (min-width: 830px) {
+      
+      .politica__titulo {font-size: 40px;
+         } }
+
+        
+
+
+
+
+    /*politica__subtitulo, politica__tercerSub*/
+  .politica__subtitulo, .politica__tercerSub {
+    font-size: var(--fontsize-normal);
+    margin-top: 2rem; }
+
+
+
+
+          /* politica__subtitulo */
+
+
+  .politica__subtitulo {
+    margin-top: .8rem;
+    margin-bottom: 1rem; }
+
+
+
+
+              /* politica__provincia*/
+
+
+  .politica__provincia {
+    margin-top: 4rem; }
+
+
+
+            /* politica__precio  */
+
+
+  .politica__precio {
+    font-weight: bold; }
